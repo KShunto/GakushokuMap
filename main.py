@@ -1,9 +1,14 @@
 from maps.GakushokuSample import GakushokuSample
-from maps.ShuntoOsusume import ShuntoOsusume
+from maps.GakushokuKoyanagi import GakushokuKoyanagi
 from maps.KamiyaGakushoku import KamiyaGakushoku
 from maps.MoritaGakushoku import MoritaGakushoku
+from maps.ShuntoOsusume import ShuntoOsusume
 # ↓のリストには、メンバーの各オススメ学食が格納されます。
-data = [GakushokuSample(), MoritaGakushoku(),KamiyaGakushoku(), ShuntoOsusume(), ]
+data = [GakushokuSample(), 
+        MoritaGakushoku(),
+        KamiyaGakushoku(), 
+        ShuntoOsusume(),  
+        GakushokuKoyanagi()]
 
 
 for rank, d in enumerate(data, start=1):
